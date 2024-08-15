@@ -19,7 +19,7 @@ model Account {
   password String
 }
 
-model product {
+model Product {
   id     String @id
   name   String
   satuan String
