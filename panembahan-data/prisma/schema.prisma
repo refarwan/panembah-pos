@@ -18,3 +18,11 @@ model Account {
   username String @unique
   password String
 }
+
+model product {
+  id     String @id
+  name   String
+  satuan String
+  price  BigInt
+  stock  Int
+}
